@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	transition: all 0.5s ease;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-size: 2em;
+    padding: 10px 5px;
+}
+
+.headerlink {
+	text-decoration: none;
+	color: black;
+}
+
+.header {
+	font-size: 3em;
+	font-family: "Playfair Display", serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.mainimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99.9%;
+}
+
+.navbar {
+    width: 100vw;
+    background-color: #909090;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 22%;
+    text-align: center;
+}
+
+.navbar a.home:hover {
+    background-color: #805E73;
+}
+
+.navbar a.projects:hover {
+    background-color: #4E4D5C;
+}
+
+.navbar a.photography:hover {
+    background-color: #2D4654;
+}
+
+.navbar a.about:hover {
+    background-color: #243B4A;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+  }
+}
+
+.parallax-1 {
+    background-image: url("IMG_7231.jpeg");
+    min-height: 500px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    background-image: url("2019-04-05%2015:53:31.343.jpeg");
+    min-height: 500px;  
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-3 {
+    background-image: url("IMG_7887.jpeg");
+    min-height: 500px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 2em;  
+}
+
+
+
+
+
+table {
+    width: 100%;
+}
+
+.photo_tr {
+    height: 100px;
+    width: 100vw;
+}
+
+.photo_td {
+    width: 25%;
+}
+
+.photo_img {
+    width: 100%;
+}
+
+.row {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px 1%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
