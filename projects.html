@@ -8,6 +8,7 @@
         <link href="style.css" rel="stylesheet"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -19,58 +20,34 @@
             </div>
             <ul>            
                 <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="projects.html" style="color: #FBE551;">Projects</a></li>
                 <li><a href="photography.html">Photography</a></li>
             </ul>
         </nav>
-        
-        <h3>Projects</h3>
 
-        
-        
-        <table>
-            <tr>
-                <th class="projects-th">L'Appel Du Vide</th>
-                <th class="projects-th">Claire Litt</th>
-            </tr>
-            <tr>
-                <td class="projects-td">Paired project for Web Programming in my second year at Heriot-Watt.</td>
-                <td class="projects-td">Working with a client to create a website for their Exhibition and Interior design business. <br> Below is their original website.</td>
-            </tr>
-            <tr>
-                <td class="projects-icons">
-                    <a target="_blank" href="https://www2.macs.hw.ac.uk/~ap109/website/index.xhtml">
-                        <span class="material-icons">computer</span>
-                    </a>
-                    <a target="_blank" href="https://github.com/ajnabz/lappelDuVide">
-                        <i class="fa fa-github" style="font-size:30px; padding: 0px 10px"></i>
-                    </a>
-                </td>
-                <td class="projects-icons">
-                    <a href="https://www.clairelitt.co.uk/">
-                        <span class="material-icons">computer</span>
-                    </a>
-                    <a href="https://github.com/ajnabz/ClaireLitt">
-                        <i class="fa fa-github" style="font-size:30px"></i>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <iframe id="frame" src="https://www2.macs.hw.ac.uk/~ap109/website/index.xhtml" scrolling="no"/>
-                </td>
-                <td>          
-                    <iframe id="frame" src="https://www.clairelitt.co.uk/" scrolling="no"/>
-                </td>
-            </tr>
-            
-        </table>
-        
-         <div class="projects-box">
-            <h4>Turing Machine<span class="date"> 02.03.2019</span></h4>       
-            <p>Individual project to implement a multiplication turing machine.</p>
-            <p>View on GitHub: <a href="https://github.com/ajnabz/TuringMachine" target="_blank">github.com</a></p>
-        </div>
-        
+        <h3>Projects</h3>
+        <a href="https://www2.macs.hw.ac.uk/~ap109/website/index.xhtml" target="_blank">
+            <div class="projectContainer">
+                <img class="projectBg" src="LappelSquare.jpg">
+                <div class="centeredText lappelText">L'Appel Du Vide</div>
+                <div class="overlay lappelText">My first website: A paired project for my Web Programming course in my second year at Heriot-Watt.</div>
+            </div>
+        </a>
+
+        <a href="https://www.clairelitt.co.uk/" target="_blank">
+            <div class="projectContainer">
+                <img class="projectBg" src="clairesquare.jpg">
+                <div class="centeredText claireText">Claire Litt</div>
+                <div class="overlay claireText">Working with a client to create a website for their Exhibition and Interior design business.</div>
+            </div>
+        </a>
+
+        <a href="https://github.com/ajnabz/TuringMachine" target="_blank">
+            <div class="projectContainer">
+                <img class="projectBg" src="turingSquare.jpg">
+                <div class="centeredText">Turing Machine</div>
+                <div class="overlay">An individual project to implement a multiplication Turing machine in my third year at Heriot-Watt.</div>
+            </div>
+        </a>
     </body>
 </html>

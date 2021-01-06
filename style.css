@@ -163,27 +163,54 @@ h4 {
     padding: 0px 10px;
 }
 
-.projects-th {
-    font-size: 1.25em;
+.projectBg {
+    width: 100vw;
+    height: 100%;
+    transition: opacity 0.3s ease;
 }
 
-.projects-td {
-    padding: 5px 10px;
+.projectContainer {
+    position: relative;
     text-align: center;
+    color: white;
 }
 
-.projects-icons {
-    text-align: center;
+.projectContainer:hover .overlay{
+    opacity: 1;
+    transition: opacity 0.4s ease;
 }
 
-.projects-box {
-    background-color: #C0C0C0;
-    margin: 1em;
+.projectContainer:hover .projectBg{
+    opacity: 0.5;
+    transition: opacity 0.4s ease;
 }
 
-.date {
-    font-size: 0.6em;
-    padding-left: 1em;
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+}
+
+.claireText {
+    font-family: 'Jost', sans-serif;
+}
+
+.lappelText{
+    font-family: 'Playfair Display', serif;
+}
+
+.overlay {
+    color: black;
+    position: absolute;
+    left: 50%;
+    width: 60vw;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    bottom: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 #frame {
