@@ -30,12 +30,13 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none; 
+    font-size: 1.3em;
     color: #a9abae;
     transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 
 nav ul li a:hover {
-    color: #FBE551;
+    color: lavender;
     text-decoration: underline;
     transition: color 0.2s ease, text-decoration 0.2s ease;
 }
@@ -43,7 +44,6 @@ nav ul li a:hover {
 .icon {
     height: 8vh;
 }
-
 
 h3 {
     font-size: 2em;
@@ -67,7 +67,7 @@ h4 {
 }
 
 .parallax-1 {
-    background-image: url("IMG_7231.jpeg");
+    background-image: url("CornwallImg/SeaView.jpeg");
     min-height: 500px; 
     width: 100%;
     background-attachment: fixed;
@@ -77,7 +77,7 @@ h4 {
 }
 
 .parallax-2 {
-    background-image: url("2019-04-05%2015:53:31.343.jpeg");
+    background-image: url("IcelandImg/GullfossRight.jpeg");
     min-height: 500px;  
     width: 100%;
     background-attachment: fixed;
@@ -87,17 +87,7 @@ h4 {
 }
 
 .parallax-3 {
-    background-image: url("IMG_7887.jpeg");
-    min-height: 500px; 
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-4 {
-    background-image: url("Rowing.jpg");
+    background-image: url("FloridaImg/Avatar.jpeg");
     min-height: 500px; 
     width: 100%;
     background-attachment: fixed;
@@ -117,6 +107,15 @@ h4 {
     top: 8px;
     left: 16px;
     font-size: 2em;  
+}
+
+.titleText {
+    margin-top: 2.5em;
+}
+
+.titleName {
+    color: white;
+    font-weight: bold;
 }
 
 .row {
@@ -218,4 +217,99 @@ h4 {
     height: 500px;
     pointer-events: none;
     overflow: hidden;
+}
+
+/*homepage*/
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section div.sectionText{
+    width: 50%;
+    vertical-align: middle;
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 1em;
+    text-align: center;
+}
+
+section div.stickyContainer {
+    height: 100vh;
+    background-color: lavender;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 8vh;
+    width: 50vw;
+    margin: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+section div.img-2 {
+    background-color: lavenderblush;
+}
+
+section div.img-3 {
+    background-color: aliceblue;
+}
+
+section div.img-4 {
+    background-color: cornsilk;
+}
+
+.stickyImg {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+    vertical-align: middle;
+    border-radius: 30px;
+}
+
+.title {
+    font-size: 2em;
+    padding-bottom: 2vw;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 17px;
+    padding-top: 0.5em;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.indexText {
+    font-size: 17px;
+}
+
+.textLinks {
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.educationTitle {
+    font-size: 19px;
+}
+
+li {
+    padding-bottom: 2em;
+}
+
+.highlightText {
+    color: deeppink;
 }
